@@ -108,7 +108,7 @@ body {
   font-size: 26px;
 }
 .address {
-  font-style: normal;
+  font-style: inherit;
   color: var(--footer-logo-second-part);
   font-size: 14px;
   line-height: 1.7;
