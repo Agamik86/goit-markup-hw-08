@@ -11,190 +11,223 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header-background">
-      <nav>
-        <ul class="list">
-          <li>
-            <a class="logo" href="index.html"
-              ><span class="first-logo">Web</span
-              ><span class="second-logo">Studio</span></a
-            >
-          </li>
-          <li><a class="navigation" href="#">Agencja</a></li>
-          <li><a class="navigation" href="portfolio.html">Portfolio</a></li>
-          <li><a class="navigation" href="#">Kontakt</a></li>
-        </ul>
-      </nav>
-      <div>
-        <ul class="list">
-          <li>
-            <a class="contacts" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="contacts" href="tel:+48111111111">+48 111 111 111</a>
-          </li>
-        </ul>
-      </div>
+    <header>
+      <section class="section">
+        <div class="container header-background">
+          <div class="header-navigation">
+            <nav>
+              <ul class="list nav-list">
+                <li>
+                  <a class="logo" href="index.html"
+                    ><span class="first-logo">Web</span
+                    ><span class="second-logo">Studio</span></a
+                  >
+                </li>
+                <li><a class="navigation" href="#">Agencja</a></li>
+                <li>
+                  <a class="navigation" href="portfolio.html">Portfolio</a>
+                </li>
+                <li><a class="navigation" href="#">Kontakt</a></li>
+              </ul>
+            </nav>
+            <div>
+              <ul class="list contacts-list">
+                <li>
+                  <a class="contacts" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li>
+                  <a class="contacts" href="tel:+48111111111"
+                    >+48 111 111 111</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
     <main>
-      <ul class="list">
-        <li><button class="button" type="button">Wszystkie</button></li>
-        <li><button class="button" type="button">Strony</button></li>
-        <li><button class="button" type="button">Aplikacje</button></li>
-        <li><button class="button" type="button">Dizajn</button></li>
-        <li><button class="button" type="button">Marketing</button></li>
-      </ul>
-      <ul class="list">
-        <li>
-          <figure>
-            <img
-              src="./images/people-make-difference.jpg"
-              alt="umieszone obok siebie zdjęcia trzech osób na ekranie laptopa podpisane: our people make difference"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <p class="photo-header">Technocrack</p>
-              <p class="solution">Strona internetowa</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img
-              src="./images/basketball-game.jpg"
-              alt="dwóch koszykarzy walczących o piłkę"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <p class="photo-header">Grafika New Orlean vs Golden Star</p>
-              <p class="solution">Dizajn</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img
-              src="./images/seafood-restaurant.jpg"
-              alt="logo restauracji, w tle ryba, na niej napis: The Seafood Restaurant, Est. 2001"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <p class="photo-header">Restauracja Seafood</p>
-              <p class="solution">Aplikacja</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img
-              src="./images/headphones.jpg"
-              alt="czarne słuchawki nauszne"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <p class="photo-header">Projekt Prime</p>
-              <p class="solution">Marketing</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img
-              src="./images/two-boxes.jpg"
-              alt="dwa, leżące obok siebie pudełka, większe białe, mniejsze brązowe"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <p class="photo-header">Projekt Boxes</p>
-              <p class="solution">Aplikacja</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img
-              src="./images/inspiration-has-no-borders-on-screen.jpg"
-              alt="napis inspiration has no borders, obok mapa wyświetlone na monitorze komputera "
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <p class="photo-header">Inspiration has no Borders</p>
-              <p class="solution">Strona internetowa</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img
-              src="./images/magazine-limited-edition.jpg"
-              alt="magazyn otwarty na stronie ze zdjęciem kobiety suszącej włosy oraz napisem I'm Limited Edition i zdjęciem dwóch kobiet pokazujących znak V na drugiej stronie"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <p class="photo-header">Magazyn Limited Edition</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img
-              src="./images/lab-project.jpg"
-              alt="zawieszka z napisem: LAB EL TAG PsD Mockup"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <p class="photo-header">Projekt LAB</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img
-              src="./images/growing-business-on-notebook.jpg"
-              alt="dłonie na klawiaturze notebooka, na monitorze wyświetlone zdjęcie mężczyzny ze smartfonem, obok napis GROWING BUSINESS"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <p class="photo-header">Growing Business</p>
-            </figcaption>
-          </figure>
-        </li>
-      </ul>
+      <section class="section buttons-block">
+        <div class="container">
+          <ul class="list buttons-bar">
+            <li><button class="button" type="button">Wszystkie</button></li>
+            <li><button class="button" type="button">Strony</button></li>
+            <li><button class="button" type="button">Aplikacje</button></li>
+            <li><button class="button" type="button">Dizajn</button></li>
+            <li><button class="button" type="button">Marketing</button></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <ul class="list our-projects">
+            <li>
+              <figure class="figure">
+                <img
+                  src="./images/people-make-difference.jpg"
+                  alt="umieszone obok siebie zdjęcia trzech osób na ekranie laptopa podpisane: our people make difference"
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <p class="photo-header">Technocrack</p>
+                  <p class="solution">Strona internetowa</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="figure">
+                <img
+                  src="./images/basketball-game.jpg"
+                  alt="dwóch koszykarzy walczących o piłkę"
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <p class="photo-header">Grafika New Orlean vs Golden Star</p>
+                  <p class="solution">Dizajn</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="figure">
+                <img
+                  src="./images/seafood-restaurant.jpg"
+                  alt="logo restauracji, w tle ryba, na niej napis: The Seafood Restaurant, Est. 2001"
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <p class="photo-header">Restauracja Seafood</p>
+                  <p class="solution">Aplikacja</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="figure">
+                <img
+                  src="./images/headphones.jpg"
+                  alt="czarne słuchawki nauszne"
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <p class="photo-header">Projekt Prime</p>
+                  <p class="solution">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="figure">
+                <img
+                  src="./images/two-boxes.jpg"
+                  alt="dwa, leżące obok siebie pudełka, większe białe, mniejsze brązowe"
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <p class="photo-header">Projekt Boxes</p>
+                  <p class="solution">Aplikacja</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="figure">
+                <img
+                  src="./images/inspiration-has-no-borders-on-screen.jpg"
+                  alt="napis inspiration has no borders, obok mapa wyświetlone na monitorze komputera "
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <p class="photo-header">Inspiration has no Borders</p>
+                  <p class="solution">Strona internetowa</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="figure">
+                <img
+                  src="./images/magazine-limited-edition.jpg"
+                  alt="magazyn otwarty na stronie ze zdjęciem kobiety suszącej włosy oraz napisem I'm Limited Edition i zdjęciem dwóch kobiet pokazujących znak V na drugiej stronie"
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <p class="photo-header">Magazyn Limited Edition</p>
+                  <p class="solution">Dizajn</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="figure">
+                <img
+                  src="./images/lab-project.jpg"
+                  alt="zawieszka z napisem: LAB EL TAG PsD Mockup"
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <p class="photo-header">Projekt LAB</p>
+                  <p class="solution">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="figure">
+                <img
+                  src="./images/growing-business-on-notebook.jpg"
+                  alt="dłonie na klawiaturze notebooka, na monitorze wyświetlone zdjęcie mężczyzny ze smartfonem, obok napis GROWING BUSINESS"
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <p class="photo-header">Growing Business</p>
+                  <p class="solution">Aplikacja</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-    <footer class="dark-background">
-      <a class="logo-footer" href="index.html"
-        ><span class="first-logo-footer">Web</span
-        ><span class="second-logo-footer">Studio</span></a
-      >
-      <address class="address">
-        m. Warszawa, Aleje Jerozolimskie 21
-        <ul class="list">
-          <li>
-            <a class="contacts footer-contacts" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+    <footer class="footer portfolio-footer">
+      <section class="section">
+        <div class="container dark-background">
+          <div class="footer-block">
+            <a class="logo-footer" href="index.html"
+              ><span class="first-logo-footer">Web</span
+              ><span class="second-logo-footer">Studio</span></a
             >
-          </li>
-          <li>
-            <a class="contacts footer-contacts" href="tel:+48111111111"
-              >+48 111 111 111</a
-            >
-          </li>
-        </ul>
-      </address>
+            <address class="address">
+              <a class="city">m. Warszawa, Aleje Jerozolimskie 21</a>
+              <ul class="list footer-list">
+                <li>
+                  <a
+                    class="contacts footer-contacts city"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li>
+                  <a class="contacts footer-contacts" href="tel:+48111111111"
+                    >+48 111 111 111</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+        </div>
+      </section>
     </footer>
   </body>
 </html>
