@@ -262,6 +262,7 @@ img {
   border-bottom: thin var(--header-border) solid;
   padding-bottom: 25px;
   padding-top: 25px;
+  align-items: center;
 }
 .nav-list {
   display: flex;
