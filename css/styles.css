@@ -270,7 +270,9 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding-left: 0;
+}
+.figure {
+  margin: 0;
 }
 .workers-photos-list-item {
   border-bottom-left-radius: 4px;
@@ -333,10 +335,17 @@ header {
   gap: 10px;
 }
 .client-item-list {
-  fill: var(--social-media-icons);
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  height: 92px;
+  width: 170px;
+}
+.client-item-list:hover,
+.client-item-list:focus {
+  color: var(--logo-first-part);
 }
 .our-clients {
   display: flex;
@@ -344,17 +353,7 @@ header {
   gap: 30px;
 }
 .clients-icons {
-  height: 92px;
-  width: 170px;
   fill: currentColor;
-  border: 1px solid var(--social-media-icons);
-  border-radius: 4px;
-}
-.clients-icons:hover,
-.clients-icons:focus {
-  fill: var(--logo-first-part);
-  border: 1px solid var(--logo-first-part);
-  cursor: pointer;
 }
 .footer {
   display: flex;
