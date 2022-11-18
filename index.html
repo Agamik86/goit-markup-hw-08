@@ -26,7 +26,7 @@
             ><span class="second-logo">Studio</span></a
           >
           <ul class="list nav-list">
-            <li><a class="navigation" href="#">Agencja</a></li>
+            <li><a class="navigation agency" href="index.html">Agencja</a></li>
             <li>
               <a class="navigation" href="portfolio.html">Portfolio</a>
             </li>
@@ -55,7 +55,9 @@
       <section class="main-background-header">
         <div class="container">
           <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="main-button" type="button">Zamów usługę</button>
+          <button class="main-button" type="button" data-modal-open>
+            Zamów usługę
+          </button>
         </div>
       </section>
       <section class="section">
@@ -132,29 +134,38 @@
         <div class="container">
           <h2 class="second-header">Czym się zajmujemy</h2>
           <ul class="list photos-at-work">
-            <li>
+            <li class="what-we-do-photo">
               <img
                 src="./images/programer-at-work.jpg"
                 alt="zbliżenie na biurko i monitor pracującego programisty"
                 width="370"
                 height="294"
               />
+              <p class="what-we-do-text first-what-we-do-photo">
+                Aplikacje komputerowe
+              </p>
             </li>
-            <li>
+            <li class="what-we-do-photo">
               <img
                 src="./images/development-of-smartphones-app.jpg"
                 alt="zbliżenie na laptopa i smartfon programisty pracującego nad interfejsem smartfonów"
                 width="370"
                 height="294"
               />
+              <p class="what-we-do-text second-what-we-do-photo">
+                Aplikacje mobilne
+              </p>
             </li>
-            <li>
+            <li class="what-we-do-photo">
               <img
                 src="./images/selection-of-colours-on-graphic-tablet.jpg"
                 alt="zbliżenie na biurko programisty pracującego ze wzornikiem kolorów na tablecie"
                 width="370"
                 height="294"
               />
+              <p class="what-we-do-text third-what-we-do-photo">
+                Rozwiązania graficzne
+              </p>
             </li>
           </ul>
         </div>
@@ -466,5 +477,18 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>
+          <svg>
+            <use
+              class="close-btn-icon"
+              href="./images/icons.svg#icon-close-black-18dp-2-1"
+            ></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
