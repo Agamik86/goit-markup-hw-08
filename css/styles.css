@@ -638,14 +638,15 @@ header {
   background-color: white;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  box-shadow: 0 0 0 0.1em #4a90e2;
+  box-shadow: 0 0 0 0.1em #212121;
 }
 .check-input:checked + .checkbox {
   background-color: var(--logo-first-part);
   background-image: url("./imges/icons.svg#icon-icon-check");
+  box-shadow: 0 0 0 0.1em #4a90e2;
 }
 .check-input:focus + .checkbox {
-  box-shadow: 0 0 0 0.1em #4a90e2, 0 0 0 0.2em #7ed321;
+  box-shadow: 0 0 0 0.1em #4a90e2;
 }
 .check-input:disabled + .checkbox {
   box-shadow: 0 0 0 0.1em #9b9b9b;
