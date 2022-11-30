@@ -1,0 +1,28 @@
+.what-we-do {
+  padding-bottom: 94px;
+
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+  &__list-item {
+    position: relative;
+  }
+  &__list-text {
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.14;
+    color: var(--header-background);
+    background-image: linear-gradient(
+      var(--what-we-do-linear-gradient),
+      var(--what-we-do-linear-gradient)
+    );
+    width: 100%;
+    bottom: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

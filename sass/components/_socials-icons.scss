@@ -1,0 +1,22 @@
+.socials__list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  &-item {
+    height: 44px;
+    width: 44px;
+    fill: var(--social-media-icons);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: fill 250ms, background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &-item:hover,
+  &-item:focus {
+    fill: var(--footer-logo-second-part);
+    background-color: var(--logo-first-part);
+  }
+}

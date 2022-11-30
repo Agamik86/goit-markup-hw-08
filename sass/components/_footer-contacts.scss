@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  align-items: baseline;
+
+  &__logo {
+    text-decoration: none;
+    line-height: 1.19;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  &__logo-first-part {
+    font-family: "Raleway", sans-serif;
+    color: var(--logo-first-part);
+    font-weight: 700;
+    font-size: 26px;
+  }
+  &__logo-second-part {
+    font-family: "Raleway", sans-serif;
+    color: var(--footer-logo-second-part);
+    font-weight: 700;
+    font-size: 26px;
+  }
+
+  &__list-contacts > li:not(:last-child) {
+    margin-bottom: 9px;
+  }
+  &__list-contacts-item {
+    color: var(--footer-contacts);
+    font-weight: 400;
+  }
+}
+.address {
+  font-style: inherit;
+  color: var(--footer-logo-second-part);
+  line-height: 1.7;
+}

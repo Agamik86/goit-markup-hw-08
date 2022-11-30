@@ -1,0 +1,17 @@
+.lorem__list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+
+  &-icons {
+    background-color: var(--light-background);
+    margin-bottom: 30px;
+    border-radius: 4px;
+  }
+
+  &-text {
+    color: var(--nav-list-color);
+    line-height: 1.7;
+  }
+}

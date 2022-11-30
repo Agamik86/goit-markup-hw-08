@@ -1,0 +1,41 @@
+.main__header-background {
+  background-image: linear-gradient(
+      var(--linear-gradient),
+      var(--linear-gradient)
+    ),
+    url("../images/first-header-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+}
+[data-clip="content-box"] {
+  background-clip: content-box;
+}
+.main__header {
+  color: var(--footer-logo-second-part);
+  font-size: 44px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.06em;
+  width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+
+  &__button {
+    font-family: inherit;
+    font-size: 16px;
+    color: var(--footer-logo-second-part);
+    background-color: var(--logo-first-part);
+    font-weight: 700;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    padding: 10px 32px;
+    display: flex;
+    align-self: center;
+    margin: 0 auto;
+  }
+}
