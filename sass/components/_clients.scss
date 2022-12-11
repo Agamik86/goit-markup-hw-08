@@ -1,19 +1,33 @@
 .clients__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+  }
 
   &-item {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-basis: 210px;
     border: 1px solid currentColor;
     color: var(--social-media-icons);
     border-radius: 4px;
     height: 92px;
-    width: 170px;
+    width: 210px;
     transition: color 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width: 768px) {
+      flex-basis: 226px;
+      width: 226px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      flex-basis: 170px;
+      width: 170px;
+    }
   }
   &-item:hover,
   &-item:focus {

@@ -1,14 +1,19 @@
 .team-members__list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
-
-  &__card {
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    box-shadow: 0px 2px var(--team-members-card);
-    background-color: var(--header-background);
+  justify-content: center;
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
   }
 }
+.team-members__card {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0px 2px var(--team-members-card);
+  background-color: var(--header-background);
+}
+
 .team-members {
   padding-top: 30px;
   padding-bottom: 30px;

@@ -1,17 +1,46 @@
 .lorem__list {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
-
+  @media screen and (min-width: 480px) {
+    max-width: 450px;
+    padding: 0;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 738px;
+    padding: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+    max-width: 1200px;
+  }
+  &-item {
+    width: 100%;
+    @media screen and (min-width: 768px) {
+      flex-basis: calc((100% - 30px) / 2);
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc((100% - 90px) / 4);
+  }
   &-icons {
     background-color: var(--light-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
     margin-bottom: 30px;
     border-radius: 4px;
   }
-
   &-text {
     color: var(--nav-list-color);
     line-height: 1.7;
+  }
+}
+.lorem__header {
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    text-align: left;
   }
 }

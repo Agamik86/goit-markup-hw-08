@@ -25,6 +25,26 @@
             ><span class="logo__first-part">Web</span
             ><span class="logo__second-part">Studio</span></a
           >
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+
           <ul class="list navigation__list">
             <li>
               <a class="navigation__list-item agency" href="index.html"
@@ -71,65 +91,73 @@
       <section class="section">
         <div class="container">
           <ul class="list lorem__list">
-            <li>
-              <svg class="lorem__list-icons" height="120" width="270">
-                <use
-                  height="70"
-                  width="70"
-                  x="100px"
-                  y="25px"
-                  href="./images/icons.svg#icon-antenna-1"
-                ></use>
-              </svg>
-              <h3 class="third__header">LOREM IPSUM</h3>
+            <li class="lorem__list-item">
+              <div class="lorem__list-icons">
+                <svg height="120" width="270">
+                  <use
+                    height="70"
+                    width="70"
+                    x="100px"
+                    y="25px"
+                    href="./images/icons.svg#icon-antenna-1"
+                  ></use>
+                </svg>
+              </div>
+              <h3 class="third__header lorem__header">LOREM IPSUM</h3>
               <p class="lorem__list-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li>
-              <svg class="lorem__list-icons" height="120" width="270">
-                <use
-                  height="70"
-                  width="70"
-                  x="100px"
-                  y="25px"
-                  href="./images/icons.svg#icon-clock-1"
-                ></use>
-              </svg>
-              <h3 class="third__header">LOREM IPSUM</h3>
+            <li class="lorem__list-item">
+              <div class="lorem__list-icons">
+                <svg height="120" width="270">
+                  <use
+                    height="70"
+                    width="70"
+                    x="100px"
+                    y="25px"
+                    href="./images/icons.svg#icon-clock-1"
+                  ></use>
+                </svg>
+              </div>
+              <h3 class="third__header lorem__header">LOREM IPSUM</h3>
               <p class="lorem__list-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li>
-              <svg class="lorem__list-icons" height="120" width="270">
-                <use
-                  height="70"
-                  width="70"
-                  x="100px"
-                  y="25px"
-                  href="./images/icons.svg#icon-diagram-1"
-                ></use>
-              </svg>
-              <h3 class="third__header">LOREM IPSUM</h3>
+            <li class="lorem__list-item">
+              <div class="lorem__list-icons">
+                <svg height="120" width="270">
+                  <use
+                    height="70"
+                    width="70"
+                    x="100px"
+                    y="25px"
+                    href="./images/icons.svg#icon-diagram-1"
+                  ></use>
+                </svg>
+              </div>
+              <h3 class="third__header lorem__header">LOREM IPSUM</h3>
               <p class="lorem__list-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li>
-              <svg class="lorem__list-icons" height="120" width="270">
-                <use
-                  height="70"
-                  width="70"
-                  x="100px"
-                  y="25px"
-                  href="./images/icons.svg#icon-astronaut-1"
-                ></use>
-              </svg>
-              <h3 class="third__header">LOREM IPSUM</h3>
+            <li class="lorem__list-item">
+              <div class="lorem__list-icons">
+                <svg height="120" width="270">
+                  <use
+                    height="70"
+                    width="70"
+                    x="100px"
+                    y="25px"
+                    href="./images/icons.svg#icon-astronaut-1"
+                  ></use>
+                </svg>
+              </div>
+              <h3 class="third__header lorem__header">LOREM IPSUM</h3>
               <p class="lorem__list-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
@@ -178,53 +206,16 @@
           <ul class="list team-members__list">
             <li class="team-members__card">
               <img
-                src="./images/first-team-member.jpg"
                 alt="członek naszego zespołu John Doe"
-                width="270"
-                height="260"
-              />
-              <div class="team-members">
-                <h3 class="team-members__name">John Doe</h3>
-                <p class="team-members__job">Product Designer</p>
-                <ul class="socials__list">
-                  <li>
-                    <a class="socials__list-item" href="#">
-                      <svg height="20" width="20">
-                        <use
-                          href="./images/icons.svg#icon-instagram-2"
-                        ></use></svg
-                    ></a>
-                  </li>
-                  <li>
-                    <a class="socials__list-item" href="#">
-                      <svg height="20" width="20">
-                        <use href="./images/icons.svg#icon-twitter-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="socials__list-item" href="#">
-                      <svg height="20" width="20">
-                        <use href="./images/icons.svg#icon-facebook-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="socials__list-item" href="#">
-                      <svg height="20" width="20">
-                        <use href="./images/icons.svg#icon-linkedin-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-members__card">
-              <img
-                src="./images/second-team-member.jpg"
-                alt="członek naszego zespołu John Doe"
-                width="270"
-                height="260"
+                srcset="
+                  ./images/first-team-member-mobile.jpg     450w,
+                  ./images/first-team-member-mobile@2x.jpg  450w,
+                  ./images/first-team-member-tablet.jpg     354w,
+                  ./images/first-team-member-tablet@2x.jpg  354w,
+                  ./images/first-team-member.jpg            270w,
+                  ./images/first-team-member-desktop@2x.jpg 270w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"
               />
               <div class="team-members">
                 <h3 class="team-members__name">John Doe</h3>
@@ -264,10 +255,16 @@
             </li>
             <li class="team-members__card">
               <img
-                src="./images/third-team-member.jpg"
                 alt="członek naszego zespołu John Doe"
-                width="270"
-                height="260"
+                srcset="
+                  ./images/second-team-member-mobile.jpg     450w,
+                  ./images/second-team-member-mobile@2x.jpg  450w,
+                  ./images/second-team-member-tablet.jpg     354w,
+                  ./images/second-team-member-tablet@2x.jpg  354w,
+                  ./images/second-team-member.jpg            270w,
+                  ./images/second-team-member-desktop@2x.jpg 270w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"
               />
               <div class="team-members">
                 <h3 class="team-members__name">John Doe</h3>
@@ -307,10 +304,65 @@
             </li>
             <li class="team-members__card">
               <img
-                src="./images/fourth-team-member.jpg"
                 alt="członek naszego zespołu John Doe"
-                width="270"
-                height="260"
+                srcset="
+                  ./images/third-team-member-mobile.jpg     450w,
+                  ./images/third-team-member-mobile@2x.jpg  450w,
+                  ./images/third-team-member-tablet.jpg     354w,
+                  ./images/third-team-member-tablet@2x.jpg  354w,
+                  ./images/third-team-member.jpg            270w,
+                  ./images/third-team-member-desktop@2x.jpg 270w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"
+              />
+              <div class="team-members">
+                <h3 class="team-members__name">John Doe</h3>
+                <p class="team-members__job">Marketing</p>
+                <ul class="socials__list">
+                  <li>
+                    <a class="socials__list-item" href="#">
+                      <svg height="20" width="20">
+                        <use
+                          href="./images/icons.svg#icon-instagram-2"
+                        ></use></svg
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="socials__list-item" href="#">
+                      <svg height="20" width="20">
+                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="socials__list-item" href="#">
+                      <svg height="20" width="20">
+                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="socials__list-item" href="#">
+                      <svg height="20" width="20">
+                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-members__card">
+              <img
+                alt="członek naszego zespołu John Doe"
+                srcset="
+                  ./images/fourth-team-member-mobile.jpg     450w,
+                  ./images/fourth-team-member-mobile@2x.jpg  450w,
+                  ./images/fourth-team-member-tablet.jpg     354w,
+                  ./images/fourth-team-member-tablet@2x.jpg  354w,
+                  ./images/fourth-team-member.jpg            270w,
+                  ./images/fourth-team-member-desktop@2x.jpg 270w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"
               />
               <div class="team-members">
                 <h3 class="team-members__name">John Doe</h3>
@@ -502,6 +554,7 @@
         </div>
       </div>
     </footer>
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" data-modal-close>
@@ -567,6 +620,99 @@
         </form>
       </div>
     </div>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          fill="currentcolor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <div class="mobile-menu">
+        <ul class="mobile-menu__list">
+          <li><a href="" class="link">Agencja</a></li>
+          <li><a href="" class="link">Portfolio</a></li>
+          <li><a href="" class="link">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="mobile-menu__list-contact">
+          <li class="mobile-menu__list-contact-tel">
+            <a class="mobile-menu__link-contact-tel" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
+          <li class="mobile-menu__list-contact-mailto">
+            <a
+              class="mobile-menu__link-contact-mailto"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+
+        <ul class="mobile-menu__list-social">
+          <li class="mobile-menu__item-social">
+            <a
+              class="mobile-menu__link-social"
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="instagram"
+              >Instagram</a
+            >
+          </li>
+          <li class="mobile-menu__item-social">
+            <a
+              class="mobile-menu__link-social"
+              href="https://twitter.com/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="twitter"
+              >Twitter</a
+            >
+          </li>
+          <li class="mobile-menu__item-social">
+            <a
+              class="mobile-menu__link-social"
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="facebook"
+            >
+              Facebook</a
+            >
+          </li>
+          <li class="mobile-menu__item-social">
+            <a
+              class="mobile-menu__link-social"
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="linkedin"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
