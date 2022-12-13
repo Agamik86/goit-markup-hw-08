@@ -10,6 +10,7 @@
   padding: 118px 0;
   max-width: 1600px;
   margin: 0 auto;
+  height: 400px;
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -43,6 +44,8 @@
         var(--linear-gradient)
       ),
       url("../images/first-header-image-desktop.jpg");
+    height: 600px;
+    padding: 200px 0;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {

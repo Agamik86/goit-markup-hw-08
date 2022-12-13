@@ -5,11 +5,16 @@
 .navigation {
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
+
 .logo {
   text-decoration: none;
   line-height: 1.19;
-  margin-right: 93px;
+  margin-right: auto;
 
   &__first-part {
     font-family: "Raleway", sans-serif;
@@ -62,7 +67,15 @@
   gap: 30px;
   align-items: center;
   margin-left: auto;
-
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: inline;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
   &-item {
     text-decoration: none;
     color: var(--nav-list-color);

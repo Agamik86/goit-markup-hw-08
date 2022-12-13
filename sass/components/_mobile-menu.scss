@@ -7,16 +7,14 @@
   border-radius: 50%;
   outline: none;
   color: black;
+
   &:hover,
   &:focus {
     background-color: transparent;
     color: var(--logo-first-part);
   }
-
-  @media (min-width: 768px) {
-    display: none;
-  }
 }
+
 .js-open-menu {
   position: absolute;
   right: 15px;
